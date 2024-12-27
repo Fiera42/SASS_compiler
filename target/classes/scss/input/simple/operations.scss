@@ -1,0 +1,16 @@
+@use "sass:math";
+
+.container {
+  display: flex;
+}
+
+article[role="main"] {
+  width: math.div(600px, 960px) * 100%;
+  height: -100px + 100px;
+}
+
+aside[role="complementary"] {
+  width: math.div(300px, 960px) * 100%;
+  height: 10px + 10px / 2;
+  margin-left: auto;
+}

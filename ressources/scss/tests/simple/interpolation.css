@@ -1,0 +1,25 @@
+.icon-mail {
+    background-image: url("/icons/mail.svg");
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.pulse {
+    animation-name: inline-uifpe6h;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes inline-uifpe6h {
+    from {
+        background-color: yellow;
+    }
+    to {
+        background-color: red;
+    }
+}
+
+.example {
+    unquoted: string;
+}

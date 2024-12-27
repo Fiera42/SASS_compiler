@@ -1,0 +1,99 @@
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+nav ul li {
+    display: inline-block;
+    margin-left: -2px;
+    margin-right: 2em;
+}
+
+.sidebar {
+    float: left;
+}
+[dir=rtl] .sidebar {
+    float: right;
+}
+
+.mail-icon {
+    text-indent: -99999em;
+    overflow: hidden;
+    text-align: left;
+    background-image: url("/images/mail.svg");
+    background-repeat: no-repeat;
+    background-position: 0 50%;
+}
+
+.avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 4px;
+}
+
+input.name {
+    position: absolute;
+    height: 150px;
+    margin-top: 0px;
+}
+
+input.address {
+    position: absolute;
+    height: 150px;
+    margin-top: 150px;
+}
+
+input.zip {
+    position: absolute;
+    height: 150px;
+    margin-top: 300px;
+}
+
+pre span.stx-string {
+    color: #080;
+}
+
+pre span.stx-comment {
+    color: #800;
+}
+
+pre span.stx-variable {
+    color: #60b;
+}
+
+input.name {
+    position: absolute;
+    height: 150px;
+    margin-top: 0px;
+}
+
+input.address {
+    position: absolute;
+    height: 150px;
+    margin-top: 150px;
+}
+
+input.zip {
+    position: absolute;
+    height: 150px;
+    margin-top: 300px;
+}
+
+.button {
+    border: 1px solid black;
+}
+.button:not([disabled]):hover {
+    border-width: 2px;
+}
+
+@media screen {
+    h1 {
+        font-size: 40px;
+    }
+}
+@media print {
+    h1 {
+        font-size: 40px;
+        font-family: Calluna;
+    }
+}

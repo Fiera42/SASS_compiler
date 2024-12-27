@@ -1,0 +1,27 @@
+/* This CSS will print because %message-shared is extended. */
+.message, .success, .error, .warning {
+    border: 1px solid #ccc;
+    padding: 10px;
+    color: #333;
+}
+
+.success {
+    border-color: green;
+}
+
+.error {
+    border-color: red;
+}
+
+.warning {
+    border-color: yellow;
+}
+
+:not(ul a ul, ul h1 ul, ul h2 ul, ul a ol, ul h1 ol, ul h2 ol, ol a ul, ol h1 ul, ol h2 ul, ol a ol, ol h1 ol, ol h2 ol) {
+    padding-bottom: 0;
+    padding-left: 0;
+}
+
+a, h1, h2 {
+    background-color: red;
+}

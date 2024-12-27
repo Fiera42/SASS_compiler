@@ -1,0 +1,25 @@
+// Using @each with a list of colors
+$colors: red, green, blue, yellow;
+
+@each $color in $colors {
+  .text-#{$color} {
+    color: $color;
+  }
+}
+
+// Using @each with a list of spacings
+$spacings: 5px, 10px, 15px, 20px;
+
+@each $spacing in $spacings {
+  .margin-#{$spacing} {
+    margin: $spacing;
+  }
+}
+
+// Using @each with a list of z-index values
+$z-indexes: -1, 0, 1, 1000;
+@each $z in $z-indexes {
+  .z-#{$z} {
+    z-index: $z;
+  }
+}

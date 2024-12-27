@@ -1,0 +1,11 @@
+@namespace svg url(http://www.w3.org/2000/svg);
+
+@font-face {
+  font-family: "Open Sans";
+  src: url("/fonts/OpenSans-Regular-webfont.woff2") format("woff2");
+}
+
+@counter-style thumbs {
+  system: cyclic;
+  symbols: "\1F44D";
+}

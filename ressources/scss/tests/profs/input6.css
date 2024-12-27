@@ -1,0 +1,29 @@
+.container {
+    width: 200px;
+    height: 70px;
+    padding: 5px;
+    margin: 45px;
+}
+
+.button {
+    background-color: #333333;
+    border-color: #eeeeee;
+}
+
+.card {
+    width: 140px;
+    height: 75px;
+    margin: 65px;
+    padding: 30px;
+}
+
+.text {
+    font-size: 20px;
+    line-height: 3;
+    letter-spacing: 1px;
+}
+
+.responsive-box {
+    width: 125px;
+    height: 90px;
+}

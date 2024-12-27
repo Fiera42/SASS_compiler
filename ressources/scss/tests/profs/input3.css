@@ -1,0 +1,18 @@
+.button {
+    background-color: #3498db;
+    padding: 10px 20px;
+    border: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 1px solid #2ecc71;
+}
+
+.button-secondary {
+    background-color: #2ecc71;
+    padding: 10px 20px;
+    border: none;
+    padding: 5px 10px;
+    font-size: 12px;
+}

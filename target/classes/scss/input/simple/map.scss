@@ -1,0 +1,24 @@
+@use "sass:map";
+
+$icons: ("eye": "\f112", "start": "\f12e", "stop": "\f12f");
+
+$icons: map.set($icons, "eye2", "\f112");
+
+@each $name, $glyph in $icons {
+  .icon-#{$name}:before {
+    display: inline-block;
+    font-family: "Icon Font";
+    content: $glyph;
+  }
+}
+
+$light-weights: ("lightest": 100, "light": 300);
+$heavy-weights: ("medium": 500, "bold": 700);
+
+$merged: map.merge($light-weights, $heavy-weights);
+
+@each $name, $glyph in $merged {
+  .icon-#{$name}:before {
+    content: $glyph;
+  }
+}

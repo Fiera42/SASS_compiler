@@ -1,0 +1,10 @@
+x = 5
+y = 4
+while x>0:
+	x = x-1
+	if y>0:
+		y = y-1
+	else:
+		y = 10
+
+

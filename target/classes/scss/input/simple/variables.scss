@@ -1,0 +1,23 @@
+$font-stack: Helvetica, sans-serif;
+$primary-color: #333;
+
+body {
+  font: 100% $font-stack;
+  color: $primary-color;
+}
+
+.circle {
+  $size: 100px;
+  width: $size;
+  height: $size;
+  border-radius: $size * 0.5;
+}
+
+a {
+  $primary-color: #444;
+  color: $primary-color;
+}
+
+h1 {
+  color: $primary-color;
+}

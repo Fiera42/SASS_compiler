@@ -1,0 +1,10 @@
+"@media (hover: hover) {
+    .button:hover {
+        border: 2px solid black;
+    }
+}
+@media (hover: hover) and (color) {
+    .button:hover {
+        border-color: #033;
+    }
+}"

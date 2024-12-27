@@ -1,0 +1,47 @@
+.text-red {
+    color: red;
+}
+
+.text-green {
+    color: green;
+}
+
+.text-blue {
+    color: blue;
+}
+
+.text-yellow {
+    color: yellow;
+}
+
+.margin-5px {
+    margin: 5px;
+}
+
+.margin-10px {
+    margin: 10px;
+}
+
+.margin-15px {
+    margin: 15px;
+}
+
+.margin-20px {
+    margin: 20px;
+}
+
+.z--1 {
+    z-index: -1;
+}
+
+.z-0 {
+    z-index: 0;
+}
+
+.z-1 {
+    z-index: 1;
+}
+
+.z-1000 {
+    z-index: 1000;
+}

@@ -1,0 +1,31 @@
+button {
+    color: #333;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+button .item-1 {
+    width: 33.333333333333336%;
+}
+
+button .item-2 {
+    width: 33.333333333333336%;
+}
+
+button .item-3 {
+    width: 33.333333333333336%;
+}
+
+.a-class {
+    background: #333;
+}
+
+.b-class {
+    background: #333;
+}
+
+.c-class {
+    background: #333;
+}
